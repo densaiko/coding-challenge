@@ -1,14 +1,14 @@
-This coding challenge specifically for non duplicate number.
+# This coding challenge specifically for non duplicate number.
 
-You have to find what number that has not been duplicated. The number is shown [4, 4, 3, 2, 2, 3, 1].
+# You have to find what number that has not been duplicated. The number is shown [4, 4, 3, 2, 2, 3, 1].
 
-If you analyze the number, you focus on the word of 'duplicate' which means this list doesn't have more than two same number.
+# If you analyze the number, you focus on the word of 'duplicate' which means this list doesn't have more than two same number.
 
-You can simply answer this with 
-1. Time complexity with O(n^2) and space complexity with O(1)
-2. Time complexity with O(n) and space complexity with O(1)
+# You can simply answer this with 
+# 1. Time complexity with O(n^2) and space complexity with O(1)
+# 2. Time complexity with O(n) and space complexity with O(1)
 
-Luckily, I'm going to answer this challenge with second solution. I will consider on the method of XOR
+# Luckily, I'm going to answer this challenge with second solution. I will consider on the method of XOR
 
 
 class dup_solution():
