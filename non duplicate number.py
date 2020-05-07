@@ -11,7 +11,7 @@
 # Luckily, I'm going to answer this challenge with second solution. I will consider on the method of XOR
 
 
-class dup_solution():
+class solution():
     def dup_sol(self, nums):
         unique = 0
         for num in nums:
@@ -19,4 +19,4 @@ class dup_solution():
         return unique
 
 nums = [4, 4, 3, 2, 2, 3, 1]    
-dup_solution().dup_sol(nums)
+solution().dup_sol(nums)
