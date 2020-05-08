@@ -1,8 +1,8 @@
-First non repeating number coding challenge is the easiest challenge in LeetCode (Correct me if I wrong)
+# First non repeating number coding challenge is the easiest challenge in LeetCode (Correct me if I wrong)
 
-To solve this coding challenge you can make it with time complexity O(n) and space complexity O(1)
+# To solve this coding challenge you can make it with time complexity O(n) and space complexity O(1)
 
-Okey, lets start coding
+# Okey, lets start coding
 
 class solution():
     def first_non_repeating(self, x, n):
