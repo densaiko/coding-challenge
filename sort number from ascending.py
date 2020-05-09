@@ -1,13 +1,17 @@
-sort number from ascending is the simple coding challenge. However, it will be useful to sort the number to get
-the structured data
+# sort number from ascending is the simple coding challenge. However, it will be useful to sort the number to get
+# the structured data
 
-There is lazy solution to solve this challenge. You can make new variable to sort the number in list
+# This solution is a solution that you pretend to code. But no problem about that, lets we pretend to code :)
 
-I consider time and space complexity down below:
-- Time complexity O(n) because I only use one variable i to loop the entire number in list
-- Space complexity O(1) because I don't need an empty list to keep the number
+# OR, if you think you don't need to pretend, you can simply use the 'sorted' function to sort number from ascending :(
+    
+# I pretend to code :)
+    
+# I consider time and space complexity down below:
+# - Time complexity O(n) because I only use one variable i to loop the entire number in list
+# - Space complexity O(1) because I don't need an empty list to keep the number
 
-Lets find the solution
+# Lets find the solution
 
 class solution():
     def sort_num_ascending(self, nums):
