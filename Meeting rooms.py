@@ -1,13 +1,13 @@
-Meeting rooms is a coding challenge from Facebook and it is a medium level based on Leetcode. In this coding challenge, 
-we have to find how many rooms that can provide meetings in a day. 
+# Meeting rooms is a coding challenge from Facebook and it is a medium level based on Leetcode. In this coding challenge, 
+# we have to find how many rooms that can provide meetings in a day. 
 
-For instance we have meeting at [7, 10], [8, 11], [13, 15]. So the there will be list inside list 
-[[7,10],[8,11],[13,15]]
+# For instance we have meeting at [7, 10], [8, 11], [13, 15]. So the there will be list inside list 
+# [[7,10],[8,11],[13,15]]
 
-I consider on time and space complexity to answer this challenge.
-- Time complexity, I'm going to order and sort the list, so it will be O(nlogn) and I just pass through all value, so it will
-be O(n). Because O(nlogn) is bigger than O(n), so the time complexity will be O(nlogn)
-- Space complexity, I'm going to separate into different array, start and end meeting, so it will be O(n)
+# I consider on time and space complexity to answer this challenge.
+# - Time complexity, I'm going to order and sort the list, so it will be O(nlogn) and I just pass through all value, so it will
+# be O(n). Because O(nlogn) is bigger than O(n), so the time complexity will be O(nlogn)
+# - Space complexity, I'm going to separate into different array, start and end meeting, so it will be O(n)
 
 Lets code:
 class solution():
